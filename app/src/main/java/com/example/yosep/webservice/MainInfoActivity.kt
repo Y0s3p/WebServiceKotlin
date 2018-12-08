@@ -20,7 +20,7 @@ class MainInfoActivity : AppCompatActivity() {
 
     internal lateinit var recyclerView: RecyclerView
     internal lateinit var layoutManager: RecyclerView.LayoutManager
-    var server_url = "http://iesayala.ddns.net/Y0s3p/getJSON.php"
+    var server_url = "http://iesayala.ddns.net/josep/getJSON.php"
     // private val server_url = "https://gist.githubusercontent.com/Y0s3p/808ce759a37c94b30681def74ab86857/raw/4b4fac13e0b46ea6ce01e7e7784cd3a07f3beb98/test.json"
 
     private var adapter: RecyclerAdapter? = null
