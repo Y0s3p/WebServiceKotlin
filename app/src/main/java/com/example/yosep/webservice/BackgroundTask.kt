@@ -19,9 +19,9 @@ class BackgroundTask(internal var ctx: Context) : AsyncTask<String, Void, String
 
     override fun doInBackground(vararg params: String): String? {
 
-        val insert_url = "http://192.168.0.161/componentes/insert.php"
-        val update_url = "http://192.168.0.161/componentes/modify.php"
-        val delete_url = "http://192.168.0.161/componentes/delete.php"
+        val insert_url = "http://iesayala.ddns.net/josep/insert.php"
+        val update_url = "http://iesayala.ddns.net/josep/modify.php"
+        val delete_url = "http://iesayala.ddns.net/josep/delete.php"
 
         val method = params[0]
 
